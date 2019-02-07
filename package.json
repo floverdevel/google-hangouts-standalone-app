@@ -1,0 +1,17 @@
+{
+    "name": "google-hangouts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Ellis",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^4.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^5.13.0"
+    },
+    "scripts": {
+        "start": "electron index.js",
+        "debug": "electron index.js --debug"
+    }
+}
